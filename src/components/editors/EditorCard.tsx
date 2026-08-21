@@ -38,7 +38,7 @@ export function EditorCard({ editor }: { editor: EditorWithProfile }) {
                 >
                   {editor.name}
                 </Link>
-                <ShieldCheck className="w-4 h-4 text-emerald-400" title="Verified Professional Editor" />
+                <ShieldCheck className="w-4 h-4 text-emerald-400" />
               </div>
               <p className="text-xs text-gray-400 font-medium">{editor.location}</p>
             </div>
